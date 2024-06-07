@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Remove ads flashscore extension",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_icon": "flashscore-logo.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "remove-ads.js"
+            ],
+            "matches": [
+                "*://www.flashscore.pl/*"
+            ]
+        }
+    ]
+}
