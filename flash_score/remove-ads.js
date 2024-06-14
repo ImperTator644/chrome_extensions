@@ -10,4 +10,5 @@ function removeElementsByClassName(names) {
 removeElementsByClassName('otPlaceholder');
 removeElementsByClassName('adsenvelope-skeleton');
 removeElementsByClassName('adsenvelope');
+removeElementsByClassName('boxOverContent--b');
 removeElementsByClassName('box-over-content-revive');
